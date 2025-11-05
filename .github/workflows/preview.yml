@@ -1,7 +1,7 @@
 name: Create website preview for PRs into staging
 
 on:
-  pull_request_target:
+  pull_request:
     branches: ["staging"]
 
 permissions:
