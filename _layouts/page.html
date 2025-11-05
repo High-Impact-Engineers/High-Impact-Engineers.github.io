@@ -1,6 +1,10 @@
 ---
 layout: default
 ---
+{% if jekyll.environment == "staging" %}
+<p>🚧 This is a preview 🚧</p>
+{% endif %}
+
 {% if page.stylesheet %}
 <link rel="stylesheet" href="{{ page.stylesheet }}">
 {% endif %}

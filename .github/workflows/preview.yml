@@ -1,0 +1,59 @@
+name: Create website preview for PRs into staging
+
+on:
+  pull_request_target:
+    branches: ["staging"]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: "pages-preview-pr-${{ github.event.pull_request.number }}"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    environment:
+      name: "Pages Preview"
+    permissions:
+      contents: read
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout PR head
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+        env:
+          JEKYLL_ENV: staging
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./_site
+
+  deploy:
+    environment:
+      name: "Pages Preview"
+      url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages (Preview)
+        id: deployment
+        uses: actions/deploy-pages@v4
+        with:
+          preview: true
