@@ -1,0 +1,13 @@
+<div class="podcast-gallery">
+    {% for page in site.data.cause-pages.pages %}
+    <div class="podcast-card">
+        <img class="podcast-thumbnail" src="{{ page.thumbnail }}" alt="{{ page.title }}">
+        <div class="podcast-info">
+            <a href="{{ page.link }}" target="_blank" rel="noopener noreferrer">
+                <h3 class="podcast-title">{{ page.title }}</h3>
+            </a>
+            <p class="podcast-description">{{ page.description }}</p>
+        </div>
+    </div>
+    {% endfor %}
+</div>
