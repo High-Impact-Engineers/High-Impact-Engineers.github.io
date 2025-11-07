@@ -1,0 +1,34 @@
+{
+    "pages": [
+        {
+            "title": "Helping Farmed Animals",
+            "description": "Trillions of animals live in factory farms. Engineers can help improve their conditions and create alternatives to factory-farmed meat",
+            "thumbnail": "/media/causes/farmed_animals.jpg",
+            "link": "farmed_animals"
+        },
+        {
+            "title": "Preventing AI Catastrophes",
+            "description": "Artificial intelligence has the potential to cause immense benefit or harm. Engineers can help control and secure AI systems",
+            "thumbnail": "/media/causes/ai.jpg",
+            "link": "ai"
+        },
+        {
+            "title": "Preparing for Pandemics",
+            "description": "Pandemics threaten millions. Engineers can create tools to detect, block, and cure new diseases",
+            "thumbnail": "/media/causes/pandemics.jpg",
+            "link": "pandemics"
+        },
+        {
+            "title": "Global Health",
+            "description": "Engineers can help provide infrastructure, medical, and logistics solutions that save lives efficiently",
+            "thumbnail": "/media/causes/global_health.jpg",
+            "link": "global_health"
+        },
+        {
+            "title": "Nuclear War",
+            "description": "A nuclear exchange could end civilization. Engineers can develop monitoring, detection, and control systems to reduce this risk",
+            "thumbnail": "/media/causes/nuclear_war.jpg",
+            "link": "nuclear_war"
+        }
+    ]
+}
