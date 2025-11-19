@@ -1,6 +1,25 @@
 ---
 ---
 @import "minima";
+
+@font-face {
+    font-family: 'Norwester';
+    src: url('fonts/norwester.woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 body {
     background-color: #b7bfb2;
+}
+h1, h2, h3 {
+    font-family: 'Norwester', 'Impact', sans-serif;
+    color: #52796f;
+}
+.site-title {
+    font-family: 'Norwester', 'Impact', sans-serif;
+    color: #52796f;
+}
+.site-title:visited {
+    color: #52796f;
 }
