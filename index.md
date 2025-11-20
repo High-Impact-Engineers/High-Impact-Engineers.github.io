@@ -3,8 +3,6 @@ layout: home
 title: High Impact Engineers
 ---
 
-![header image](media/banner_770x400.png)
-
 __Helping engineers do high impact work.__
 
 The world is full of important and pressing problems. Engineers are often very well placed to address these challenges, but there is little guidance for engineers that want to maximise their impact.
