@@ -10,7 +10,7 @@ One thing we hear a lot from do-gooding engineers is that they feel isolated in 
 
 Come join our [High Impact Engineers community](https://github.com/orgs/High-Impact-Engineers/discussions) to discuss ideas, ask for advice, share your projects, and more!
 
-<p class="big-button-wrapper">
+<p class="center-aligned-div">
     <a class="big-button" href="https://github.com/orgs/High-Impact-Engineers/discussions">
     Join the Impact Forge
     </a>
