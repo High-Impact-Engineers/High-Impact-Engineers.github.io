@@ -1,13 +1,13 @@
 <div class="gallery">
     {% for page in site.data.cause-pages.pages %}
-    <div class="gallery-card">
-        <img class="gallery-card-thumbnail" src="{{ page.thumbnail }}" alt="{{ page.title }}">
-        <div class="gallery-card-info">
-            <a href="{{ page.link }}" target="_blank" rel="noopener noreferrer">
+    <a href="{{ page.link }}">
+        <div class="gallery-card">
+            <img class="gallery-card-thumbnail" src="{{ page.thumbnail }}" alt="{{ page.title }}">
+            <div class="gallery-card-info">
                 <h3 class="gallery-card-title">{{ page.title }}</h3>
-            </a>
-            <p class="gallery-card-description">{{ page.description }}</p>
+                <p class="gallery-card-description">{{ page.description }}</p>
+            </div>
         </div>
-    </div>
+    </a>
     {% endfor %}
 </div>
