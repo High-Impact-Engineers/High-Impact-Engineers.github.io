@@ -1,13 +1,14 @@
-<div class="podcast-gallery">
+<div class="gallery">
     {% for episode in site.data.podcast-episodes.episodes %}
-    <div class="podcast-card">
-        <img class="podcast-thumbnail" src="{{ episode.thumbnail }}" alt="#{{ episode.number }} - {{ episode.title }}">
-        <div class="podcast-info">
-            <a href="{{ episode.youtube_url }}" target="_blank" rel="noopener noreferrer">
-                <h3 class="podcast-title">#{{ episode.number }} - {{ episode.title }}</h3>
-            </a>
-            <p class="podcast-description">{{ episode.description }}</p>
+    <a href="{{ episode.youtube_url }}" target="_blank" rel="noopener noreferrer">
+        <div class="gallery-card">
+            <img class="gallery-card-thumbnail" src="{{ episode.thumbnail }}"
+                alt="#{{ episode.number }} - {{ episode.title }}">
+            <div class="gallery-card-info">
+                <h3 class="gallery-card-title">#{{ episode.number }} - {{ episode.title }}</h3>
+                <p class="gallery-card-description">{{ episode.description }}</p>
+            </div>
         </div>
-    </div>
+    </a>
     {% endfor %}
 </div>
