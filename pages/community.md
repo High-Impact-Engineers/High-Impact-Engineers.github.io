@@ -12,7 +12,7 @@ Come join our [High Impact Engineers community](https://github.com/orgs/High-Imp
 
 <p class="center-aligned-div">
     <a class="big-button" href="https://github.com/orgs/High-Impact-Engineers/discussions">
-    Join the Impact Forge
+    ⚙ Join the Impact Forge ⚙
     </a>
 </p>
 

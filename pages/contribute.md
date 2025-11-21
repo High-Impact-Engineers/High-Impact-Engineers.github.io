@@ -8,7 +8,13 @@ Do you love High Impact Engineers and want to make it better? Here are some ways
 
 ## Be active in the community
 
-Join our [High Impact Engineers community](https://github.com/orgs/High-Impact-Engineers/discussions). Share your thoughts on existing discussions, or create a new one!
+Join our High Impact Engineers community, the [Impact Forge](https://github.com/orgs/High-Impact-Engineers/discussions). Share your thoughts on existing discussions, or create a new one!
+
+<p class="center-aligned-div">
+    <a class="big-button" href="https://github.com/orgs/High-Impact-Engineers/discussions">
+    ⚙ Join the Impact Forge ⚙
+    </a>
+</p>
 
 ## Improve the website
 
