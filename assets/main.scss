@@ -44,7 +44,6 @@ a:visited {
 .site-title:visited {
     color: #52796f;
 }
-
 .big-button {
 display: inline-block;
     padding: 0.9rem 2.2rem;
@@ -58,19 +57,16 @@ display: inline-block;
     transition: background-color 0.15s ease, transform 0.1s ease, box-shadow 0.15s ease;
     font-size: 0.95rem;
 }
-  
 .big-button:hover,
 .big-button:focus {
     background-color: #b7bfb2;
     transform: translateY(-1px);
     box-shadow: 0 4px 10px rgba(0,0,0,0.18);
 }
-
 .big-button:active {
     transform: translateY(0);
     box-shadow: 0 2px 5px rgba(0,0,0,0.18);
 }
-
 .big-button-wrapper {
     text-align: center;
     margin: 2rem 0;
