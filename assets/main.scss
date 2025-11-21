@@ -44,6 +44,12 @@ a:visited {
 .site-title:visited {
     color: #52796f;
 }
+.site-header {
+    border-top: 5px solid #52796f;
+    border-bottom: 1px solid #52796f;
+    min-height: 55.95px;
+    position: relative;
+}
 .big-button {
 display: inline-block;
     padding: 0.9rem 2.2rem;
@@ -67,7 +73,7 @@ display: inline-block;
     transform: translateY(0);
     box-shadow: 0 2px 5px rgba(0,0,0,0.18);
 }
-.big-button-wrapper {
+.center-aligned-div {
     text-align: center;
     margin: 2rem 0;
 }
