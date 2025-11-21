@@ -2,7 +2,7 @@
 layout: page
 title: Podcast
 permalink: /podcast/
-stylesheet: /assets/css/podcast.css
+stylesheet: /assets/css/gallery.css
 ---
 
 ![banner](../media/podcast/banner.jpg)
